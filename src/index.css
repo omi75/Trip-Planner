@@ -58,7 +58,11 @@ body{
 }
 
 .tour-details{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
     margin: 20px 5px;
+    gap: 5px;
 }
 
 .price{
