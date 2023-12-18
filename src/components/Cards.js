@@ -12,7 +12,7 @@ function Cards(p)
 
     return(
         <div className="card">
-            <img src={p.image} className="image"></img>
+            <img src={p.image} className="image" alt="Images"></img>
             <div className="tour-details">
                 <p className="price">₹ {p.price}</p>
                 <h2 className="city">{p.name}</h2>
